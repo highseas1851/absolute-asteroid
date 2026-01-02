@@ -1,4 +1,8 @@
 /* style rakosi */
 body {
     background-color: gold;
+ /*   display: flex;
+    justify-content: center; */ /* Centers horizontally */
+    font-family: fantasy;
+
 }
