@@ -15,13 +15,17 @@ const { title = "My Website" } = Astro.props;
   </head>
   <body>
     <!-- Nav/Header can go here (shared across all pages) -->
-    <nav>...</nav>
+    <nav>
+		<a href="index.astro">home</a>
+	</nav>
 
     <main>
       <slot /> <!-- Page content from index.astro etc. goes here -->
     </main>
 
     <!-- Footer can go here -->
-    <footer>...</footer>
+    <footer>
+		<p>&copy; 2026 TPM</p>
+	</footer>
   </body>
 </html>
