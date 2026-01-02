@@ -4,12 +4,17 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({});
 
+
+
 // astro.config.mjs
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  // This makes "/" and "/index" work everywhere
-  trailingSlash: 'ignore', 
-  // If you aren't using an adapter, Astro builds static files
-  output: 'static' 
+  // Netlify prefers 'always' for static sites to avoid redirects
+  trailingSlash: 'always', 
+  // Ensures Astro builds pages as folders (e.g., /about/index.html)
+  build: {
+    format: 'directory'
+  }
 });
+
