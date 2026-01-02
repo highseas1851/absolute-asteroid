@@ -8,6 +8,8 @@ export default defineConfig({});
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  // Set this to 'ignore' so both /about and /about/ work locally
-  trailingSlash: 'ignore' 
+  // This makes "/" and "/index" work everywhere
+  trailingSlash: 'ignore', 
+  // If you aren't using an adapter, Astro builds static files
+  output: 'static' 
 });
