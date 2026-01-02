@@ -1,15 +1,27 @@
 ---
-// Place this at the top of your component script from Gemini, what it said 1-2-26
-import '../styles/global.css'
+// 1. Import your styles here once
+import '../styles/global.css';
+
+// 2. Accept a title prop to make it dynamic for each page
+const { title = "My Website" } = Astro.props;
 ---
 
-<html>
-	<head>
-	</head>
-	
-	<body>
-		<slot />
-		
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <!-- Nav/Header can go here (shared across all pages) -->
+    <nav>...</nav>
 
+    <main>
+      <slot /> <!-- Page content from index.astro etc. goes here -->
+    </main>
+
+    <!-- Footer can go here -->
+    <footer>...</footer>
+  </body>
 </html>
