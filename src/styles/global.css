@@ -1,8 +1,14 @@
 /* style rakosi */
 body {
-    background-color: gold;
- /*   display: flex;
-    justify-content: center; */ /* Centers horizontally */
+    background-color: rgb(231, 220, 158);
+   display: flex;
+    justify-content: center;  /* Centers horizontally */
     font-family: fantasy;
 
 }
+
+h1 {font-size: 8rem;}
+
+footer {border: 100px solid red;}
+
+div.findo {border: 40px solid rgb(167, 44, 6);}
