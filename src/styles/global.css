@@ -7,14 +7,28 @@ body {
     font-family: fantasy;
 }
 
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the body takes at least the full viewport height */
+  margin: 20px; /* Remove default browser margins */
+}
+
+main {
+  flex: 1 0 auto; /* This makes the main content grow to fill the available space */
+}
+
+
+
+
 h1 {font-size: 8rem;}
 
-footer {border: 100px solid red;}
-
-div.findo {border: 40px solid rgb(235, 188, 35);}
+footer {border: 10px solid red;}
 
 
-/* =============================================================================== */
+
+/* ==================================media queries ============================================= */
 
 @media screen and (max-width: 600px) {
   /* CSS rules applied when the viewport width is 600px or less */
