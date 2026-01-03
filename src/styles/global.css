@@ -28,9 +28,9 @@ footer {border: 1px solid red;}
 @media screen and (max-width: 600px) {
   /* CSS rules applied when the viewport width is 600px or less */
   body {
-    font-family: fantasy;
+    font-family: arial;
      background-color: rgb(231, 220, 158);
-
+  min-height: 85vh; /* Ensures the body takes at least the full viewport height */
   }
   h1 {font-size: 3rem;
   }
