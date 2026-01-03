@@ -1,14 +1,26 @@
-/* style rakosi */
+/* started Jan 2 206 */
+
 body {
     background-color: rgb(231, 220, 158);
-   display: flex;
+    display: flex;
     justify-content: center;  /* Centers horizontally */
     font-family: fantasy;
-
 }
 
 h1 {font-size: 8rem;}
 
 footer {border: 100px solid red;}
 
-div.findo {border: 40px solid rgb(167, 44, 6);}
+div.findo {border: 40px solid rgb(235, 188, 35);}
+
+
+/* =============================================================================== */
+
+@media screen and (max-width: 600px) {
+  /* CSS rules applied when the viewport width is 600px or less */
+  body {
+    background-color: lightblue;
+  }
+  h1 {font-size: 6rem;
+  }
+}
