@@ -1,18 +1,13 @@
 /* started Jan 2 206 */
 
 body {
-    background-color: rgb(231, 220, 158);
-    display: flex;
-    justify-content: center;  /* Centers horizontally */
-    font-family: fantasy;
-}
-
-
-body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensures the body takes at least the full viewport height */
-  margin: 20px; /* Remove default browser margins */
+  min-height: 98vh; /* Ensures the body takes at least the full viewport height */
+  margin: 10; /* Remove default browser margins */
+  justify-content: center;  /* Centers horizontally */
+    font-family: fantasy;
+     background-color: rgb(231, 220, 158);
 }
 
 main {
