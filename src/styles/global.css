@@ -30,8 +30,9 @@ footer {border: 1px solid red;}
   body {
     font-family: arial;
      background-color: rgb(231, 220, 158);
-  min-height: 85vh; /* Ensures the body takes at least the full viewport height */
+  min-height: 82vh; /* Ensures the body takes at least the full viewport height */
   }
-  h1 {font-size: 3rem;
+  h1 {font-size: 5rem;
+    letter-spacing: -4px;
   }
 }
