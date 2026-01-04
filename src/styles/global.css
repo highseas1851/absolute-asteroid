@@ -36,3 +36,18 @@ footer {border: 1px solid red;}
     letter-spacing: -4px;
   }
 }
+
+/* General landscape for phones */
+@media only screen and (min-width: 480px) and (orientation: landscape) {
+  /* Styles for landscape mode on iPhones */
+  
+body {
+    font-family: arial;
+     background-color: rgb(231, 220, 158);
+  min-height: 42vh; /* Ensures the body takes at least the full viewport height */
+  }
+  h1 {font-size: 5rem;
+    letter-spacing: -4px;
+  }
+
+}
