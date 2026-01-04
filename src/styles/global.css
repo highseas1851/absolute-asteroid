@@ -44,10 +44,10 @@ footer {border: 1px solid red;}
 body {
     font-family: arial;
      background-color: rgb(231, 220, 158);
-  min-height: 62vh; /* Ensures the body takes at least the full viewport height */
+ /* min-height: 62vh; */ /* Ensures the body takes at least the full viewport height */
   }
-  h1 {font-size: 5rem;
-    letter-spacing: -4px;
+  h1 {font-size: 7rem;
+    letter-spacing: -6px;
   }
 
 }
