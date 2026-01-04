@@ -6,7 +6,7 @@ body {
   min-height: 95vh; /* Ensures the body takes at least the full viewport height */
   margin: 20px; /* Remove default browser margins */
   justify-content: center;  /* Centers horizontally */
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
      background-color: rgb(231, 220, 158);
          
 }
@@ -18,7 +18,8 @@ main {
 
 h1 {font-size: 8rem;}
 
-footer {border: 1px solid red;}
+/* footer {border: 1px solid red;} */
+
 
 .bluejigsa {width: 100%;}
 
